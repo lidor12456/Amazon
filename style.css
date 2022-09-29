@@ -6,7 +6,7 @@
 
 body{
 box-sizing: border-box;
-font-family:"Amazon Ember", Arial, sans-serif
+font-family: 'Amazon Ember Medium Italic', Arial;
 }
 
 #navbar{
@@ -271,7 +271,7 @@ font-family:"Amazon Ember", Arial, sans-serif
 }
 
 #big-picture{
-    margin-left: 90px;
+    margin-left: 80px;
 }
 
 .image-list-atr{
