@@ -760,14 +760,24 @@ hr{
     margin: 0;
 }
 
-.btn button{
-    height: 29px;
-    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+.btn1 button{
+    height: 32px;
+    border: 0px;
+border-radius: 15px;
+    background: #FCD200;
     width: 100%;
     cursor: pointer;
     
 }
-
+.btn3 button{
+    height: 32px;
+    border: 0px;
+border-radius: 15px;
+    background: #FF8F00;
+    width: 100%;
+    cursor: pointer;
+    
+}
 .btn button:hover{
     background: linear-gradient(to bottom,#f0ad11,#f0c14b);
 }
