@@ -97,7 +97,7 @@ font-family: 'Amazon Ember Medium Italic', Arial;
 .nav-right{
     display: flex;
     align-items: center;
-    flex: 2;
+    flex: 3;
     margin-top: 2px;
     padding: 3px 0 0 0;
 }
@@ -112,7 +112,6 @@ font-family: 'Amazon Ember Medium Italic', Arial;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     max-width: 50px;
-    border: 3px solid orange;
 
 }
 
@@ -150,11 +149,13 @@ font-family: 'Amazon Ember Medium Italic', Arial;
 
 #middle-right-box{
     color: white;
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
 
 .middle-box-position{
     margin-top: 13px;
+
+
 }
 
 .middle-box-position i{
@@ -177,6 +178,7 @@ font-family: 'Amazon Ember Medium Italic', Arial;
    align-items: center;
    justify-content: space-between;
    min-width: 1000px;
+   
 }
 
 #navbar2 a{
@@ -189,7 +191,7 @@ font-family: 'Amazon Ember Medium Italic', Arial;
 /* navbar3 */
 
 #navbar3{
-    
+    background-color: #fafafa;
     font-size: 13px;
     padding: 0 26px!important;
     margin-top: 8px!important;
@@ -204,8 +206,40 @@ font-family: 'Amazon Ember Medium Italic', Arial;
 #navbar3 a:hover{
     text-decoration:underline;
 }
-
-
+/* navbar4 */
+#navbar4{
+     height: 50px;
+     width: 100%;
+     padding-left: 11px;
+     background-color: #d8f7eb;
+     min-width: 1000px;
+     border: 1px solid #d0d0d0;
+     
+  }
+  #navbar4 p {
+    text-align:justify;
+    margin: 15px auto 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* navbar5 */
+  #navbar5 {
+    display:flex ;
+     height: 39px;
+     padding-left: 11px;
+     background-color: #fafafa;
+     align-items: center;
+     justify-content: space-between;
+     min-width: 1000px;
+     
+  }
+  
+  #navbar5 a{
+      padding: 3px 9px;
+      text-decoration: none;
+      color: #5c5c5c;
+      font-size: 12px;
+    }
 
 #ppd{
     
@@ -360,7 +394,7 @@ margin-left: 10px;
 #right-upper-container{
     padding: 15px;
     margin: 0 15px;
-    border: 1px solid gray;
+    border: 1px solid #d5d9d9;
 }
 
 #right-upper-container p{
@@ -377,8 +411,25 @@ margin-left: 10px;
     justify-content: space-between;
     align-items: center;
     margin: 0 15px;
-    border: 1px solid gray;
+    border: 1px solid #d5d9d9;
+    border-radius: 10px;
 }
+.right-fill #right-middle-container-2{
+    padding: 10px;
+    margin: 0 0;
+    border-bottom: 1px solid #d5d9d9;
+    
+}
+.right-fill #right-middle-container-together{
+    margin-top: 50px !important;
+    margin-left: 10px;
+    width: 90%;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+
+
+}
+
 .right-fill #right-middle-container p{
     line-height: 1.6;
     font-size: 14px;  
@@ -390,7 +441,7 @@ margin-left: 10px;
     padding: 10px;
     align-items: center;
     margin: 0 15px;
-    border: 1px solid gray;
+    border: 1px solid #d5d9d9;
 }
 .right-fill #right-down-container p{
     line-height: 1.6;
