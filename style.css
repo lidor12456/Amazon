@@ -14,7 +14,7 @@ font-family: 'Amazon Ember Medium Italic', Arial;
     font-family: inherit;
     font-size: 12px;
     line-height: 1em;
-    min-width: 1000px;
+    /* min-width: 1000px; */
 }
 
 #nav-belt{
@@ -177,8 +177,58 @@ font-family: 'Amazon Ember Medium Italic', Arial;
    background-color: #232F3E;
    align-items: center;
    justify-content: space-between;
-   min-width: 1000px;
    
+}
+@media (max-width:1000px) {
+    #ppd {
+        flex-direction: column;
+    }
+#big-picture {
+    height: 300px;
+    width: 300px;
+}
+.middle-fill{
+    padding: 0px 52px;
+    flex: 1.3; 
+    width: 30%;
+
+    
+}
+#right-upper-container {
+    width: 30%;
+
+}
+#right-middle-container {
+    width: 30%;
+}
+    #right-middle-container-together {
+display: none;    }
+    #right-down-container {
+        width: 30%;
+
+
+    }
+    .low-content {
+        width: 30%;
+
+    }
+    .flex {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .btn1 {
+        width: 30%;
+
+    }
+    .images-plus {
+        width: 30%;
+        height: 100%;
+
+    }
+    .right-chunk p {
+        display: none;
+    }
+
 }
 
 #navbar2 a{
@@ -209,10 +259,10 @@ font-family: 'Amazon Ember Medium Italic', Arial;
 /* navbar4 */
 #navbar4{
      height: 50px;
-     width: 100%;
+     /* width: 100%; */
      padding-left: 11px;
      background-color: #d8f7eb;
-     min-width: 1000px;
+     /* min-width: 1000px; */
      border: 1px solid #d0d0d0;
      
   }
@@ -230,7 +280,6 @@ font-family: 'Amazon Ember Medium Italic', Arial;
      background-color: #fafafa;
      align-items: center;
      justify-content: space-between;
-     min-width: 1000px;
      
   }
   
@@ -239,6 +288,10 @@ font-family: 'Amazon Ember Medium Italic', Arial;
       text-decoration: none;
       color: #5c5c5c;
       font-size: 12px;
+    }
+  
+  #navbar5 a:hover{
+color : orange
     }
 
 #ppd{
@@ -555,6 +608,12 @@ margin-left: 10px;
 .images-plus img{
     height: 100px;
 }
+.gray-bg {
+    background-color: gray;
+    height:50px;
+
+
+}
 
 
 .plus{
@@ -608,8 +667,10 @@ margin-left: 10px;
     position: absolute;
     top: 50%;
     left: 0;
-    background-color: #cdd8d8;
-    padding: 20px;
+    /* background-color: #cdd8d8; */
+    padding: 10px 12px;
+    border: 1px solid #dbdede;
+    border-radius: 5px;
 }
 
 
@@ -664,6 +725,10 @@ margin-left: 10px;
 .flex{
     display: flex;
 }
+/* .flex2 {
+    display: flex;
+    justify-content: space-between;
+} */
 
 .flex-down{
     align-items: flex-end;
@@ -719,8 +784,8 @@ margin-left: 10px;
   }
   
   .arrow3 {
-    border: solid black;
-    border-width: 0 3px 3px 0;
+    border: solid #555555;
+    border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
   }
